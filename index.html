@@ -148,9 +148,9 @@ footer strong{color:#fff}
   <div class="cover-in">
     <img class="cover-logo" src="img/logo.png" alt="Lark Seeds">
     <div>
-      <span class="pill">MANUAL DE USUARIO · VERSIÓN 1.0.2</span>
+      <span class="pill">MANUAL DE USUARIO · EDICIÓN ENTREVISTADOR</span>
       <h1>Registro de visitas<br>para expo</h1>
-      <p class="lead">Guía completa para capturar entrevistas, administrar registros, sincronizar la información y generar el reporte de la expo desde el iPad.</p>
+      <p class="lead">Guía paso a paso para capturar las entrevistas de la expo desde el iPad, incluso sin conexión a internet.</p>
     </div>
     <div class="cover-meta">
       <span><strong>Cliente:</strong> Lark Seeds International</span>
@@ -169,13 +169,6 @@ footer strong{color:#fff}
       <li><a href="#instalar">Instalar en el iPad</a></li>
       <li><a href="#inicio">Pantalla de inicio</a></li>
       <li><a href="#capturar">Capturar una entrevista</a></li>
-      <li><a href="#acceso">Acceso al panel</a></li>
-      <li><a href="#panel">Panel de administración</a></li>
-      <li><a href="#registros">Registros y exportación</a></li>
-      <li><a href="#constructor">Constructor del formulario</a></li>
-      <li><a href="#sync">Sincronización</a></li>
-      <li><a href="#reporte">Reporte de la expo</a></li>
-      <li><a href="#respaldos">Respaldos</a></li>
       <li><a href="#buenas">Buenas prácticas y problemas</a></li>
     </ol>
   </nav>
@@ -183,14 +176,11 @@ footer strong{color:#fff}
   <main>
     <section id="que-es">
       <h2 class="sec"><span class="sec-num">1</span>Qué es la aplicación</h2>
-      <p class="sub">Una aplicación web instalable que funciona sin conexión. Todos los registros se guardan primero en el iPad y después se respaldan en la nube cuando hay internet.</p>
+      <p class="sub">Una aplicación web instalable que funciona sin conexión. Cada entrevista se guarda en el iPad y queda disponible para el equipo cuando haya internet.</p>
       <div class="grid-3">
         <div class="feature"><div class="tag">Captura</div><h4>Formulario guiado</h4><p>Cinco secciones con validación, folio automático y autoguardado.</p></div>
-        <div class="feature"><div class="tag">Control</div><h4>Panel administrador</h4><p>Indicadores, registros, filtros, exportación y constructor del formulario.</p></div>
-        <div class="feature"><div class="tag">Nube</div><h4>Sincronización</h4><p>Subida por lotes a Cloudflare con reintento automático de pendientes.</p></div>
-        <div class="feature"><div class="tag">Resultados</div><h4>Reporte de la expo</h4><p>Gráficas por país, día y respuestas destacadas, listo para imprimir.</p></div>
-        <div class="feature"><div class="tag">Seguridad</div><h4>Roles y bloqueo</h4><p>Acceso por rol, protección del panel y cierre por inactividad.</p></div>
-        <div class="feature"><div class="tag">Respaldo</div><h4>Copia completa</h4><p>Descarga y restauración de registros y formulario en un archivo.</p></div>
+        <div class="feature"><div class="tag">Sin conexión</div><h4>Siempre disponible</h4><p>Puedes capturar aunque no haya internet en el stand.</p></div>
+        <div class="feature"><div class="tag">Datos</div><h4>Datos seguros</h4><p>El avance se guarda en el iPad y no se pierde al cerrar la app.</p></div>
       </div>
       <div class="note">La aplicación está pensada para un iPad y un entrevistador. No requiere instalar nada desde la App Store ni configurar cuentas de Apple.</div>
     </section>
@@ -207,24 +197,24 @@ footer strong{color:#fff}
         <li>Activa <b>Modo avión</b> y vuelve a abrirla para comprobar que funciona sin internet. Desactiva el modo avión al terminar.</li>
       </ol>
       <div class="tip">Abre siempre la aplicación desde el icono de la pantalla de inicio. Así se ejecuta a pantalla completa, sin las barras de Safari.</div>
-      <div class="warn">No borres los datos de Safari ni desinstales la aplicación durante la expo: los registros locales viven en el almacenamiento del iPad. Descarga un respaldo al final de cada jornada.</div>
+      <div class="warn">No borres los datos de Safari ni desinstales la aplicación durante la expo: las entrevistas se guardan en el almacenamiento del iPad.</div>
     </section>
 
     <section id="inicio">
       <h2 class="sec"><span class="sec-num">3</span>Pantalla de inicio</h2>
-      <p class="sub">Desde aquí eliges cómo entrar, cambias el idioma y el tema claro u oscuro.</p>
+      <p class="sub">Entra como entrevistador, cambia el idioma y ajusta el tema claro u oscuro.</p>
       <figure>
         <img src="img/01-portada.png" alt="Pantalla de inicio de Lark Seeds">
-        <figcaption>Pantalla de inicio. El botón de entrevistador inicia el formulario; el de administrador pide credenciales.</figcaption>
+        <figcaption>Pantalla de inicio. Toca <strong>Entrevistador</strong> para comenzar a capturar visitas.</figcaption>
       </figure>
       <div class="grid-2">
         <div class="card">
-          <h3>Roles</h3>
+          <h3>Cómo entrar</h3>
           <ul>
-            <li><strong>Entrevistador:</strong> llena el formulario con cada visitante.</li>
-            <li><strong>Administrador:</strong> registros, reporte, sincronización, respaldos y constructor.</li>
+            <li>Toca <strong>Entrevistador</strong> para abrir el formulario.</li>
+            <li>El folio se asigna automáticamente al iniciar.</li>
           </ul>
-          <p style="margin:0;color:var(--muted);font-size:14px">Cambiar de rol nunca borra registros.</p>
+          <p style="margin:0;color:var(--muted);font-size:14px">Si la aplicación no abre el formulario, avisa al coordinador de la expo.</p>
         </div>
         <div class="card">
           <h3>Idioma y tema</h3>
@@ -269,174 +259,37 @@ footer strong{color:#fff}
       <p>En el último paso, toca <strong>Guardar registro</strong>. Verás la confirmación con el folio asignado.</p>
       <figure>
         <img src="img/06-exito.png" alt="Confirmación de registro guardado">
-        <figcaption>Confirmación. Desde aquí puedes iniciar un nuevo registro o ir a la lista de registros.</figcaption>
+        <figcaption>Confirmación. Desde aquí puedes iniciar una nueva entrevista o volver al inicio.</figcaption>
       </figure>
-      <div class="tip">Si no hay internet, el registro queda como <strong>Pendiente</strong>. Se subirá cuando vuelvas a tener conexión y uses el botón Subir información.</div>
-    </section>
-
-    <section id="acceso">
-      <h2 class="sec"><span class="sec-num">5</span>Acceso al panel</h2>
-      <p class="sub">El panel y el reporte están protegidos. Las credenciales se entregan por separado y no se muestran en este manual.</p>
-      <figure class="phone">
-        <img src="img/03-login.png" alt="Pantalla de acceso del administrador">
-        <figcaption>Acceso. Usuario y contraseña se solicitan cada vez que se necesita editar o consultar información protegida.</figcaption>
-      </figure>
-      <div class="grid-2">
-        <div class="note">Tras <strong>5 minutos de inactividad</strong> la sesión se cierra y vuelve a la pantalla de inicio. Es normal: solo vuelve a entrar.</div>
-        <div class="note">La opción <strong>Proteger la lectura de registros</strong> se puede desactivar en el panel para dejar la lista en solo lectura sin contraseña.</div>
-      </div>
-    </section>
-
-    <section id="panel">
-      <h2 class="sec"><span class="sec-num">6</span>Panel de administración</h2>
-      <p class="sub">Es el centro de control. Muestra el estado de la captura y da acceso a todas las herramientas.</p>
-      <figure>
-        <img src="img/09-panel.png" alt="Panel de administración con indicadores y tarjetas">
-        <figcaption>Panel. Indicadores de registros, pendientes, capturas del día y países; accesos a registros, reporte, subida, constructor, configuración, sincronización y respaldos.</figcaption>
-      </figure>
-      <div class="grid-2">
-        <div class="card">
-          <h3>Indicadores</h3>
-          <ul>
-            <li><strong>Registros:</strong> total capturado en el iPad.</li>
-            <li><strong>Por subir:</strong> pendientes de enviar a la nube.</li>
-            <li><strong>Hoy:</strong> registros creados en el día.</li>
-            <li><strong>Países:</strong> países distintos registrados.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>Acciones rápidas</h3>
-          <ul>
-            <li><strong>Nuevo registro:</strong> abre el formulario.</li>
-            <li><strong>Subir información:</strong> envía los pendientes.</li>
-            <li><strong>Reporte:</strong> abre el reporte imprimible.</li>
-            <li><strong>Registros:</strong> lista completa con filtros.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="registros">
-      <h2 class="sec"><span class="sec-num">7</span>Registros y exportación</h2>
-      <p class="sub">Consulta, busca y filtra las entrevistas. Puedes abrir el detalle de cada registro y exportar a CSV para Excel.</p>
-      <figure>
-        <img src="img/07-registros.png" alt="Lista de registros con buscador y filtros">
-        <figcaption>Lista de registros. Buscador sin acentos, filtros por estado, país y periodo, y orden por fecha, folio o nombre.</figcaption>
-      </figure>
-      <figure>
-        <img src="img/08-detalle.png" alt="Detalle de un registro">
-        <figcaption>Detalle. Respuestas agrupadas por sección, con folio, fecha, duración y estado de sincronización.</figcaption>
-      </figure>
-      <div class="grid-2">
-        <div class="card">
-          <h3>Exportar a Excel</h3>
-          <p>El botón <strong>Exportar CSV</strong> descarga solo los registros que cumplen los filtros actuales. El archivo se abre en Excel o Numbers con acentos correctos.</p>
-        </div>
-        <div class="card">
-          <h3>Eliminar registros</h3>
-          <p>Solo administradores. Se pide confirmación y el registro se borra del iPad; si ya estaba en la nube, permanece allá hasta que se limpie desde la base de datos.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="constructor">
-      <h2 class="sec"><span class="sec-num">8</span>Constructor del formulario</h2>
-      <p class="sub">Adapta el formulario sin tocar código: agrega secciones, preguntas y opciones, y tradúcelo a los cuatro idiomas.</p>
-      <figure>
-        <img src="img/10-constructor.png" alt="Constructor de formulario">
-        <figcaption>Constructor. Sección seleccionada, preguntas, tipos de respuesta, idiomas y vista previa.</figcaption>
-      </figure>
-      <h3>Qué puedes hacer</h3>
-      <ul>
-        <li>Crear, renombrar, reordenar y eliminar <strong>secciones</strong>.</li>
-        <li>Agregar preguntas de texto, texto largo, correo, teléfono, número, lista, opción única, casillas y región.</li>
-        <li>Marcar preguntas obligatorias, agregar opciones y activar <strong>Otro</strong>.</li>
-        <li>Traducir títulos y opciones por idioma con <strong>Completar desde español</strong>.</li>
-        <li>Ver una <strong>vista previa</strong> sin crear registros reales.</li>
-        <li>Guardar versiones y restaurar una anterior si algo sale mal.</li>
-        <li>Exportar e importar el formulario en JSON.</li>
-      </ul>
-      <div class="tip">Los registros ya capturados nunca se modifican al cambiar el formulario: conservan las respuestas y etiquetas del momento en que se guardaron.</div>
-      <div class="warn">Antes de la expo, prueba cualquier cambio con <strong>Vista previa</strong> y guarda una versión. Si algo falla, restaura la versión anterior desde el historial.</div>
-    </section>
-
-    <section id="sync">
-      <h2 class="sec"><span class="sec-num">9</span>Sincronización</h2>
-      <p class="sub">Envía los registros pendientes a Cloudflare. La aplicación reintenta y conserva lo que no se pudo subir.</p>
-      <div class="steps-wrap">
-        <ol class="steps">
-          <li>Conecta el iPad a internet.</li>
-          <li>Entra al panel como administrador.</li>
-          <li>En la tarjeta <b>Sincronización</b>, toca <b>Probar conexión</b>. Debe decir <b>Conectado</b>.</li>
-          <li>Toca <b>Subir información</b> y espera el aviso de cuántos registros se enviaron.</li>
-          <li>Los registros cambian de <b>Pendiente</b> a <b>Subido</b>.</li>
-        </ol>
-      </div>
-      <div class="note">Si la conexión falla, los registros permanecen como pendientes y se pueden reintentar más tarde. Nunca se pierden por un error de red.</div>
-      <div class="warn">La dirección del servidor y la clave de API ya vienen configuradas. No las cambies salvo que soporte técnico te lo indique.</div>
-    </section>
-
-    <section id="reporte">
-      <h2 class="sec"><span class="sec-num">10</span>Reporte de la expo</h2>
-      <p class="sub">Un resumen visual listo para compartir con el equipo o imprimir en PDF.</p>
-      <figure>
-        <img src="img/11-reporte.png" alt="Reporte de la expo con indicadores y gráficas">
-        <figcaption>Reporte. Totales, distribución por país, registros por día y respuestas destacadas de las preguntas de opción.</figcaption>
-      </figure>
-      <h3>Cómo guardarlo en PDF</h3>
-      <ol class="steps">
-        <li>Abre <b>Reporte</b> desde el panel.</li>
-        <li>Toca <b>Imprimir / PDF</b>.</li>
-        <li>En la vista de impresión, elige <b>Compartir</b> y luego <b>Guardar en Archivos</b>.</li>
-        <li>Selecciona una carpeta y guarda el documento.</li>
-      </ol>
-      <div class="tip">El reporte se calcula con los registros del iPad. Antes de imprimir, sincroniza y descarga un respaldo para tener todo consolidado.</div>
-    </section>
-
-    <section id="respaldos">
-      <h2 class="sec"><span class="sec-num">11</span>Respaldos</h2>
-      <p class="sub">Una copia de seguridad completa de registros y formulario, en un solo archivo.</p>
-      <div class="grid-2">
-        <div class="card">
-          <h3>Descargar respaldo</h3>
-          <p>Genera un archivo JSON con todos los registros, el formulario activo y el contador de folios. Guárdalo en Archivos o en la nube.</p>
-        </div>
-        <div class="card">
-          <h3>Restaurar respaldo</h3>
-          <p>Selecciona un archivo. Los registros se agregan o actualizan por identificador, sin borrar los existentes; el formulario se guarda como una versión nueva.</p>
-        </div>
-      </div>
-      <div class="tip">Descarga un respaldo <strong>al final de cada jornada</strong> y antes de cualquier cambio grande del formulario. Es la protección más simple y efectiva.</div>
-      <div class="warn">Restaurar no recupera registros eliminados que ya no estén en el archivo. Verifica la fecha del respaldo antes de usarlo.</div>
+      <div class="tip">Si no hay internet, la entrevista queda guardada como <strong>Pendiente</strong> y el equipo la envía cuando haya conexión. No necesitas hacer nada más.</div>
     </section>
 
     <section id="buenas">
-      <h2 class="sec"><span class="sec-num">12</span>Buenas prácticas y problemas</h2>
+      <h2 class="sec"><span class="sec-num">5</span>Buenas prácticas y problemas</h2>
       <p class="sub">Rutina recomendada para la expo y solución rápida de situaciones comunes.</p>
       <h3>Rutina diaria</h3>
       <ol class="steps">
-        <li><b>Al iniciar:</b> carga el iPad, abre la app desde el icono y verifica el folio en el formulario.</li>
+        <li><b>Al iniciar:</b> carga el iPad, abre la app desde el icono, toca <b>Entrevistador</b> y verifica el folio.</li>
         <li><b>Durante la expo:</b> captura cada visita y confirma el folio al guardar.</li>
-        <li><b>Al terminar:</b> conecta internet, prueba la conexión, sube la información y descarga un respaldo.</li>
-        <li><b>Al cerrar:</b> puedes imprimir el reporte del día si lo necesitas.</li>
+        <li><b>Al terminar:</b> deja el iPad conectado a internet para que el equipo sincronice la información.</li>
+        <li><b>Si algo falla:</b> avisa al coordinador con el folio y una captura de pantalla.</li>
       </ol>
       <h3>Problemas comunes</h3>
       <div class="table-wrap">
         <table>
           <thead><tr><th>Situación</th><th>Qué hacer</th></tr></thead>
           <tbody>
-            <tr><td>No hay internet en el stand</td><td>Captura normal. Los registros quedan pendientes y se suben después.</td></tr>
+            <tr><td>No hay internet en el stand</td><td>Captura normal. La entrevista se guarda en el iPad y se envía después.</td></tr>
             <tr><td>La app no abre sin conexión</td><td>Ábrela una vez con internet desde el icono y espera la carga completa.</td></tr>
             <tr><td>El formulario pide un campo</td><td>Revisa los campos con asterisco; el sistema resalta el que falta.</td></tr>
-            <tr><td>La sesión se cerró sola</td><td>Es el bloqueo por inactividad (5 minutos). Vuelve a entrar con tus credenciales.</td></tr>
-            <tr><td>Un registro no aparece en la nube</td><td>Verifica que diga Subido; si sigue Pendiente, prueba conexión y vuelve a subir.</td></tr>
-            <tr><td>Necesito recuperar el formulario anterior</td><td>Entra al constructor y restaura una versión del historial.</td></tr>
-            <tr><td>Cambié algo y quiero volver atrás</td><td>Descarta los cambios antes de guardar o restaura la versión previa.</td></tr>
-            <tr><td>El reporte sale vacío</td><td>Confirma que existan registros en el iPad y que estés en la cuenta correcta.</td></tr>
+            <tr><td>No estoy seguro de haber guardado</td><td>Vuelve a abrir el formulario: el borrador se retoma donde lo dejaste.</td></tr>
+            <tr><td>El folio no aparece</td><td>Regresa al inicio y toca de nuevo <b>Entrevistador</b>.</td></tr>
+            <tr><td>La app se ve pequeña o con barras</td><td>Ábrela desde el icono de la pantalla de inicio, no desde Safari.</td></tr>
+            <tr><td>Necesito cambiar de idioma</td><td>Usa el selector ES · EN · PT · EL de la esquina superior.</td></tr>
           </tbody>
         </table>
       </div>
-      <div class="note">Para soporte técnico, conserva el folio del registro, una captura de pantalla y la fecha y hora del incidente. Eso acelera cualquier revisión.</div>
+      <div class="note">Para soporte técnico, conserva el folio de la entrevista, una captura de pantalla y la fecha y hora del incidente. Eso acelera cualquier revisión.</div>
     </section>
   </main>
 </div>
